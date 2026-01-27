@@ -2,6 +2,8 @@
 
 # Agents League @ TechConnect
 
+<img width="4404" height="2475" alt="agentsleague-techconnect" src="https://github.com/user-attachments/assets/b786593d-d0b7-49a2-8fe0-e9a67b24b4ac" />
+
 ## 🏟️ Welcome to the Arena!
 
 </div>
@@ -21,8 +23,6 @@ An **in-person hackathon experience** combining:
 
 **Open to all skill levels!** Whether you're an AI expert or just getting started, there's a track for you.
 
----
-
 ## ⏰ Event Schedule
 
 | Time | Activity |
@@ -33,8 +33,6 @@ An **in-person hackathon experience** combining:
 
 *Winners will be announced after the event once judges review all submissions!*
 
----
-
 ## Challenge Tracks
 
 Pick one track and build something awesome!
@@ -44,8 +42,6 @@ Pick one track and build something awesome!
 | 🎨 **Creative Apps** | GitHub Copilot | Build innovative creative applications using AI-assisted development | [View →](./starter-kits/1-creative-apps/) |
 | 🧠 **Reasoning Agents** | Microsoft Foundry | Create intelligent agents that solve complex problems through multi-step reasoning | [View →](./starter-kits/2-reasoning-agents/) |
 | 💼 **Enterprise Agents** | M365 Agents Toolkit | Build business-ready knowledge agents integrated with Microsoft 365 | [View →](./starter-kits/3-enterprise-agents/) |
-
----
 
 ## How to Participate
 
@@ -77,8 +73,6 @@ Submit your project before time runs out using the [project submission template]
 - Winners announced via email/Teams
 - Show off your badge when you win! 🏆
 
----
-
 ## Judging
 
 Projects are evaluated by Microsoft product teams **after the event** using this rubric:
@@ -89,11 +83,9 @@ Projects are evaluated by Microsoft product teams **after the event** using this
 - **User Experience & Presentation (15%)** — Clear documentation, screenshots/video
 - **Technical Implementation (15%)** — Solid patterns, creative use of tools
 
----
-
 ## Prizes & Recognition
 
-### � Track Winners
+### 🏆 Track Winners
 
 | Award | Description |
 |-------|-------------|
@@ -117,8 +109,6 @@ Projects are evaluated by Microsoft product teams **after the event** using this
 - **Digital Badge** - Everyone who submits a project receives a badge
 - **Eternal glory** - You battled in the Agents League arena!
 
----
-
 ## Resources
 
 ### 📦 Starter Kits (with setup guides & examples)
@@ -133,8 +123,6 @@ Projects are evaluated by Microsoft product teams **after the event** using this
 - **Ask your tablemates** - Collaborate and learn together
 - **Check the starter kits** - Step-by-step guides included
 
----
-
 <div align="center">
 
 ## 🚀 Ready to Compete?
@@ -145,7 +133,6 @@ Projects are evaluated by Microsoft product teams **after the event** using this
 
 **Questions?** Raise your hand and ask a roaming expert!
 
----
 
 *Agents League @ TechConnect - Brought to you by the Developer Advocacy team*
 
