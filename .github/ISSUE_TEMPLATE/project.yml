@@ -34,7 +34,7 @@ body:
       required: true
 
   - type: input
-    id: microsoft-alias
+    id: microsoft-alias (please share all member details if participated as a group)
     attributes:
       label: "Microsoft Alias"
       description: "Your Microsoft alias (e.g., johndoe)"
@@ -43,20 +43,11 @@ body:
       required: true
 
   - type: input
-    id: github-username
+    id: github-username(s)
     attributes:
       label: "GitHub Username"
       description: "Your GitHub username"
       placeholder: "@username"
-    validations:
-      required: true
-
-  - type: input
-    id: table-number
-    attributes:
-      label: "Table Number"
-      description: "What table are you sitting at?"
-      placeholder: "Table 7"
     validations:
       required: true
 
