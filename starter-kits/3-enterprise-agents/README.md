@@ -32,7 +32,9 @@ In this track, we encourage you to create agents that extend **Microsoft 365 Cop
 3. **Copilot Studio** - Leverage Microsoft Copilot Studio to create powerful agents with a low-code/no-code experience. Copilot Studio provides a visual designer for building conversational agents that can be easily extended and customized to meet specific business needs.
 
 ## How Your Solution Will Be Judged
-Your project will be evaluated across **three main dimensions**: Technical Implementation, Business Value, and Innovation & Creativity. Each dimension carries equal weight in determining the winners.\\---
+Your project will be evaluated across **three main dimensions**: Technical Implementation, Business Value, and Innovation & Creativity. Each dimension carries equal weight in determining the winners.
+
+---
 
 ## 🔧 Technical Implementation (33 points)
 
@@ -149,7 +151,7 @@ Build a solution where multiple specialized agents work together, or where your 
 
 ### Technical Implementation Summary
 
-| Criterion | Points | Status | Copilot Studio | Agents Toolkit | CEA |
+| Criterion | Points | Status | Copilot Studio | Declarative Agents (DA) with ATK | Custom Engine Agents (CEA) with ATK |
 |-----------|--------|--------|----------------|----------------|-----|
 | **Microsoft 365 Copilot Chat Agent** | Required | Must have |[https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/04-extending-m365-copilot/](https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/04-extending-m365-copilot/) | [https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/01a-geolocator/](https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/01a-geolocator/)|[https://microsoft.github.io/copilot-camp/pages/custom-engine/agents-sdk/02-agent-with-agents-sdk/](https://microsoft.github.io/copilot-camp/pages/custom-engine/agents-sdk/02-agent-with-agents-sdk/) |
 | **External MCP Server Integration (Read/Write)** | 8 | Optional, encouraged |[https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/06-mcp/](https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/06-mcp/) | [https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/08-mcp-server/](https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/08-mcp-server/)|[https://microsoft.github.io/copilot-camp/pages/custom-engine/agent-framework/07-add-mcp-tools/](https://microsoft.github.io/copilot-camp/pages/custom-engine/agent-framework/07-add-mcp-tools/)|
@@ -158,11 +160,7 @@ Build a solution where multiple specialized agents work together, or where your 
 | **Connected Agents Architecture** | 15 | Higher rating |[https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/09-connected-agents/](https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/09-connected-agents/)|[https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/09-connected-agent/](https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/09-connected-agent/) | |
 | **TOTAL TECHNICAL POINTS** | **33** | | | | |
 
-
-
-
 ---
-
 
 ## 💼 Business Value (33 points)
 
@@ -181,10 +179,7 @@ Build a solution where multiple specialized agents work together, or where your 
 - Combining capabilities in unexpected ways
 - "Aha!" moments in the design
 
-
-
 ---
-
 
 ## 📊 Final Scoring Overview
 
@@ -376,8 +371,6 @@ Build agents using the low-code/no-code Microsoft Copilot Studio platform:
 
 ---
 
-
-
 ## 📚 Resources
 
 Explore the following resources to deepen your knowledge and accelerate your development:
@@ -453,17 +446,17 @@ Even in a hackathon, show you're thinking about security, scalability, and real-
 
 **Yes.** Candidates are expected to use their own Microsoft 365 tenant for development and testing. We recommend using a dedicated developer tenant to avoid impacting production environments. For detailed information on setting up a Copilot development environment, please refer to the [Microsoft 365 Copilot extensibility prerequisites](https://aka.ms/extend-Copilot-sandbox).
 
-### Is the MCP server integration really optional?**  
+### Is the MCP server integration really optional?
 **Yes,** but teams that include it (especially with read/write capabilities) will score significantly higher on technical implementation. It's worth the effort!
 
-###  What if we have great business value but simpler technical implementation?**  
+### What if we have great business value but simpler technical implementation?
 **That's completely fine!** Each dimension is weighted equally. A highly valuable, well-designed solution with solid (not fancy) tech can definitely win.
 
-###  Can we score points in Connected Agents without MCP servers?**  
+### Can we score points in Connected Agents without MCP servers?
 **Yes!** You could build connected agents that work together within the Copilot ecosystem, even without external integrations.
 
-###  Should we build for breadth or depth?**  
-**Depth** Do one thing incredibly well. It's better to solve one problem end-to-end than to half-solve three problems.
+### Should we build for breadth or depth?
+**Depth.** Do one thing incredibly well. It's better to solve one problem end-to-end than to half-solve three problems.
 
 ---
 
