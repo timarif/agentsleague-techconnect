@@ -1,6 +1,6 @@
 # 💼 Enterprise Agents - Starter Kit
 
-**Track**: Enterprise Agents with M365 Agents Toolkit  
+**Track**: Enterprise Agents with M365 Agents Toolkit
 **Time Limit**: 100 minutes
 
 Welcome to the Enterprise Agents track! In this challenge, you will build intelligent agents that extend **Microsoft 365 Copilot** to address real-world enterprise scenarios. Your goal is to create agents that seamlessly integrate with Microsoft 365 workloads, leveraging the power of AI to automate tasks, enhance productivity, and deliver exceptional user experiences within the enterprise ecosystem.
@@ -18,6 +18,172 @@ In this track, we encourage you to create agents that extend **Microsoft 365 Cop
 2. **Building Custom Engine Agents (CEA) with Microsoft 365 Agents Toolkit (ATK) + Visual Studio Code** - Develop **Custom Engine Agents** using the ATK extension in VS Code. This approach gives you full control over the agent's orchestration logic by writing custom code to handle conversations, integrate with external services, and implement complex business workflows. Custom Engine Agents are ideal when you need advanced customization beyond what declarative configurations offer.
 
 3. **Copilot Studio** - Leverage Microsoft Copilot Studio to create powerful agents with a low-code/no-code experience. Copilot Studio provides a visual designer for building conversational agents that can be easily extended and customized to meet specific business needs.
+
+## How Your Solution Will Be Judged
+Your project will be evaluated across **three main dimensions**: Technical Implementation, Business Value, and Innovation & Creativity. Each dimension carries equal weight in determining the winners.\\---
+
+## 🔧 Technical Implementation (33 points)
+
+### Core Requirements
+
+#### ✅ Microsoft 365 Copilot Chat Agent (Required)
+**Points: Pass/Fail - Must have to qualify**
+
+Your solution must include a functioning Copilot chat agent that users can interact with naturally.
+
+**What we're looking for:**
+- Agent responds to user queries in Microsoft 365 Copilot
+- Clear conversation flow and context understanding
+- Proper error handling and graceful fallbacks
+
+**Why it matters:** This is the foundation of the hackathon - every solution needs to extend Copilot's capabilities.
+
+---
+
+### Technical Excellence (Additional Points)
+
+#### 🌐 External MCP Server Integration - Read/Write (8 points)
+**Status: Optional but highly encouraged**
+
+Connect your agent to external systems using Model Context Protocol (MCP) servers with both read and write capabilities.
+
+**What we're looking for:**
+- Successfully retrieves data from external sources (Read)
+- Can update or create data in external systems (Write)
+- Smooth data flow between Copilot and external services
+- Handles API responses appropriately
+
+**Examples:**
+- Read customer data from Salesforce, write meeting notes back
+- Fetch project status from Jira, create new tasks
+- Pull employee info from Workday, update training records
+
+**Scoring:**
+- Basic read-only integration: 3 points
+- Read + Write integration: 8 points
+
+---
+
+#### 🔐 OAuth Security for MCP Server (5 points)
+**Status: Optional**
+
+Implement secure authentication using OAuth 2.0 for your MCP server connections.
+
+**What we're looking for:**
+- Proper OAuth 2.0 flow implementation
+- Secure token handling and storage
+- User consent and permission management
+- No hardcoded credentials or API keys
+
+**Why it matters:** Enterprise agents must handle data securely. OAuth shows production-ready security practices.
+
+**Scoring:**
+- Partial OAuth implementation (working flow, some security gaps): 2 points
+- Complete OAuth implementation with best practices: 5 points
+
+---
+
+#### 🎨 Adaptive Cards for UI/UX (5 points)
+**Status: Optional**
+
+Use Adaptive Cards to create rich, interactive user experiences within the chat interface.
+
+**What we're looking for:**
+- Well-designed cards that present information clearly
+- Interactive elements (buttons, inputs, actions)
+- Responsive design that works across devices
+- Cards enhance the experience vs. plain text
+
+**Examples:**
+- Sales dashboard cards with drill-down actions
+- Approval request cards with approve/reject buttons
+- Form submissions with input validation
+- Multi-step wizards using card sequences
+
+**Scoring:**
+- Basic static cards: 2 points
+- Interactive cards with actions and good UX: 5 points
+
+---
+
+#### 🔗 Connected Agents Architecture (15 points)
+**Status: Higher Rating**
+
+Build a solution where multiple specialized agents work together, or where your agent orchestrates complex multi-step workflows.
+
+**What we're looking for:**
+- Multiple agents with distinct responsibilities
+- Intelligent routing between agents
+- Shared context and conversation continuity
+- Graceful handoffs and escalation patterns
+
+**Examples:**
+- Sales agent → Finance agent → Legal agent for deal approval
+- HR agent delegates to Benefits, IT, and Payroll sub-agents
+- Support agent escalates to Engineering agent when needed
+- Workflow agent coordinates across CRM, email, and calendar
+
+**Architecture Patterns:**
+- **Hub-and-Spoke:** Central coordinator agent delegates to specialists (7-10 points)
+- **Pipeline:** Agents process sequentially, passing context (10-12 points)
+- **Autonomous:** Agents decide when to collaborate dynamically (12-15 points)
+
+**Scoring:**
+- 2-3 connected agents with basic handoffs: 7 points
+- 3+ agents with smart routing and context sharing: 12 points
+- Advanced orchestration with autonomous decision-making: 15 points
+
+---
+
+### Technical Implementation Summary
+
+| Criterion | Points | Status | Copilot Studio | Agents Toolkit | CEA |
+|-----------|--------|--------|----------------|----------------|-----|
+| **Microsoft 365 Copilot Chat Agent** | Required | Must have |[https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/04-extending-m365-copilot/](https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/04-extending-m365-copilot/) | [https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/01a-geolocator/](https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/01a-geolocator/)|[https://microsoft.github.io/copilot-camp/pages/custom-engine/agents-sdk/02-agent-with-agents-sdk/](https://microsoft.github.io/copilot-camp/pages/custom-engine/agents-sdk/02-agent-with-agents-sdk/) |
+| **External MCP Server Integration (Read/Write)** | 8 | Optional, encouraged |[https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/06-mcp/](https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/06-mcp/) | [https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/08-mcp-server/](https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/08-mcp-server/)|[https://microsoft.github.io/copilot-camp/pages/custom-engine/agent-framework/07-add-mcp-tools/](https://microsoft.github.io/copilot-camp/pages/custom-engine/agent-framework/07-add-mcp-tools/)|
+| **OAuth Security for MCP Server** | 5 | Optional | [https://microsoft.github.io/agent-academy/operative/10-mcp/](https://microsoft.github.io/agent-academy/operative/10-mcp/) | [https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/10-mcp-auth/](https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/10-mcp-auth/)| |
+| **Adaptive Cards for UI/UX** | 5 | Optional |[https://microsoft.github.io/agent-academy/operative/11-obtain-user-feedback/](https://microsoft.github.io/agent-academy/operative/11-obtain-user-feedback/) | | |
+| **Connected Agents Architecture** | 15 | Higher rating |[https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/09-connected-agents/](https://microsoft.github.io/copilot-camp/pages/make/copilot-studio/09-connected-agents/)|[https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/09-connected-agent/](https://microsoft.github.io/copilot-camp/pages/extend-m365-copilot/09-connected-agent/) | |
+| **TOTAL TECHNICAL POINTS** | **33** | | | | |
+
+
+
+
+---
+
+
+## 💼 Business Value (33 points)
+
+**What we're looking for:**
+- Addresses a genuine pain point in your organization
+- Solution is relevant to many users, not just one department
+- Clear understanding of current workflow vs. improved workflow
+
+---
+
+## 💡 Innovation & Creativity (34 points)
+
+**What we're looking for:**
+- Non-obvious approach to the challenge
+- Elegant solutions to complex problems
+- Combining capabilities in unexpected ways
+- "Aha!" moments in the design
+
+
+
+---
+
+
+## 📊 Final Scoring Overview
+
+| Dimension | Points | % of Total |
+|-----------|--------|-----------|
+| **Technical Implementation** | 33 | 33% |
+| **Business Value** | 33 | 33% |
+| **Innovation & Creativity** | 34 | 34% |
+| **TOTAL POSSIBLE POINTS** | **100** | 100% |
+
+---
 
 ### Real-World Enterprise Scenarios
 
@@ -80,7 +246,7 @@ The **Agent Academy** provides structured learning paths and expert-led training
 ### Getting Started Checklist
 
 1. ✅ Visit the Copilot Dev Camp portal and review the available learning paths
-2. ✅ Set up your development environment (VS Code + ATK or Copilot Studio)
+2. ✅ Set up your development environment (VS Code + Microsoft 365 Agents Toolkit or Copilot Studio)
 3. ✅ Explore the sample projects and templates provided in the documentation
 4. ✅ Identify your target enterprise scenario and define your agent's capabilities
 5. ✅ Start building and iterating on your solution
@@ -198,101 +364,7 @@ Build agents using the low-code/no-code Microsoft Copilot Studio platform:
 
 ---
 
-## 🛡️ Security & Best Practices
 
-Security is paramount when building enterprise agents that handle sensitive organizational data and integrate with Microsoft 365 services. When writing custom code, follow these guidelines to ensure your solution meets enterprise security standards:
-
-### Microsoft 365 Security Integration
-
-- **Microsoft Entra ID (formerly Azure Active Directory)**: Your agent **must** leverage Microsoft Entra ID for user authentication and authorization. This ensures that users are properly authenticated before accessing agent capabilities and that authorization policies are enforced consistently across the enterprise.
-
-- **User Authentication**: Implement proper authentication flows that require users to sign in with their organizational credentials. Use OAuth 2.0 and OpenID Connect protocols to securely authenticate users and obtain access tokens for downstream API calls.
-
-- **Authorization & Permissions**: Define granular permissions for your agent based on the principle of least privilege. Ensure that users can only access data and perform actions that are appropriate for their role and responsibilities within the organization.
-
-- **Conditional Access Policies**: Design your agent to respect organizational Conditional Access policies, including multi-factor authentication (MFA) requirements, device compliance checks, and location-based access controls.
-
-### Best Practices
-
-- **Data Protection**: Handle sensitive data responsibly by implementing proper data encryption, avoiding unnecessary data storage, and following data residency requirements.
-
-- **Audit & Logging**: Implement comprehensive logging to track agent interactions and support security audits. Ensure logs capture relevant metadata without exposing sensitive information.
-
-- **Secure Development Lifecycle**: When writing code, follow secure coding practices throughout development, including input validation, output encoding, and protection against common vulnerabilities.
-
-- **Token Management**: Store and handle access tokens securely. Never expose tokens in logs, URLs, or client-side code.
-
----
-
-## 📋 Requirements & Evaluation
-
-Your solution will be evaluated based on the following requirements and criteria. Meeting these requirements will position your project for success in the competition:
-
-### Core Requirements
-
-Here you can find the fundamental requirements to be satisfied by your agent.
-
-#### 1. Microsoft 365 Copilot Chat Agent (Required)
-
-Your agent **must** be hosted in **Microsoft 365 Copilot Chat**. This means your solution should be designed to run within the Copilot Chat experience, providing users with a seamless conversational interface integrated into the Microsoft 365 ecosystem.
-
-**Important**: Your agent can target **Copilot Free** and does **not** necessarily require a Microsoft 365 Copilot license. This makes your solution accessible to a broader audience, including organizations that have not yet adopted paid Copilot licenses.
-
-### Bonus Criteria (not mandatory)
-
-If you want to get **extra points**, you can also support one or more of the following requirements.
-
-#### 2. External MCP Server Integration (Optional)
-
-Integrating your agent with an external **Model Context Protocol (MCP) server** to read and write specific content is **optional but highly encouraged**. The MCP server acts as a bridge between your agent and external data sources or services, enabling your agent to:
-
-- **Read Operations**: Retrieve data from external systems, databases, or APIs through the MCP server
-- **Write Operations**: Create, update, or modify content in external systems through the MCP server
-
-This demonstrates real-world integration capabilities and shows how your agent can interact with enterprise systems beyond the Microsoft 365 ecosystem.
-
-#### 3. OAuth Security for MCP Server (Highly Valued)
-
-Implementing **OAuth-based authentication and authorization** when consuming the MCP server will be **highly appreciated** and will positively impact your evaluation score. Secure MCP server integration should include:
-
-- Proper OAuth 2.0 token acquisition and management
-- Secure storage and handling of client credentials
-- Token refresh mechanisms to maintain continuous access
-- Proper error handling for authentication failures
-
-#### 4. Adaptive Cards for UI/UX (Plus)
-
-Using **Adaptive Cards** for rendering your agent's user interface and user experience will be considered a **plus** in your solution. Adaptive Cards provide:
-
-- Rich, interactive card-based interfaces that render natively across Microsoft 365 applications
-- Consistent user experiences across different platforms and devices
-- Support for user input, actions, and dynamic content updates
-- Accessibility features built into the card framework
-
-Leverage Adaptive Cards to create engaging, intuitive interactions that enhance user productivity.
-
-#### 5. Connected Agents Architecture (Higher Rating)
-
-A solution that implements **connected agents** (multi-agent architecture) will be **rated higher** than single-agent architectures. Connected agents demonstrate:
-
-- **Orchestration**: Multiple specialized agents working together to accomplish complex tasks
-- **Collaboration**: Agents that can delegate work, share context, and coordinate responses
-- **Scalability**: An architecture that can be extended with additional agents as needs evolve
-- **Specialization**: Each agent focuses on specific capabilities, leading to better overall performance
-
-Consider designing your solution with multiple agents that collaborate to address different aspects of your enterprise scenario.
-
-### Evaluation Summary
-
-| Criterion | Impact |
-|-----------|--------|
-| Microsoft 365 Copilot Chat Agent | **Required** |
-| External MCP Server Integration (Read/Write) | **Optional** |
-| OAuth Security for MCP Server | **Highly Valued** |
-| Adaptive Cards for UI/UX | **Plus** |
-| Connected Agents Architecture | **Higher Rating** |
-
----
 
 ## 📚 Resources
 
@@ -331,6 +403,22 @@ Access official Microsoft documentation, tutorials, and learning paths:
 
 ---
 
+## 🎯 Winning Strategy Tips
+
+### Balance All Three Dimensions
+Don't just focus on technical complexity. A simple but highly valuable solution with great UX can beat a technically sophisticated but impractical one.
+
+### Quality Over Quantity
+It's better to do one thing exceptionally well than five things poorly. Nail your core use case first.
+
+### Show, Don't Tell
+Your demo should speak for itself. Let judges experience the value rather than just hearing about it.
+
+### Know Your Users
+The best solutions come from deep empathy with the people who have the problem. Talk to them early and often.
+
+### Think Production-Ready
+Even in a hackathon, show you're thinking about security, scalability, and real-world deployment.
 ## ❓ FAQ
 
 ### Can I use vibe-coding?
@@ -353,6 +441,20 @@ Access official Microsoft documentation, tutorials, and learning paths:
 
 **Yes.** Candidates are expected to use their own Microsoft 365 tenant for development and testing. We recommend using a dedicated developer tenant to avoid impacting production environments. For detailed information on setting up a Copilot development environment, please refer to the [Microsoft 365 Copilot extensibility prerequisites](https://aka.ms/extend-Copilot-sandbox).
 
+### Is the MCP server integration really optional?**  
+**Yes,** but teams that include it (especially with read/write capabilities) will score significantly higher on technical implementation. It's worth the effort!
+
+###  What if we have great business value but simpler technical implementation?**  
+**That's completely fine!** Each dimension is weighted equally. A highly valuable, well-designed solution with solid (not fancy) tech can definitely win.
+
+###  Can we score points in Connected Agents without MCP servers?**  
+**Yes!** You could build connected agents that work together within the Copilot ecosystem, even without external integrations.
+
+###  Should we build for breadth or depth?**  
+**Depth** Do one thing incredibly well. It's better to solve one problem end-to-end than to half-solve three problems.
+
 ---
+
+Good luck! We can't wait to see what you build. 🚀
 
 **Need help?** Raise your hand - roaming experts are here to assist you!
