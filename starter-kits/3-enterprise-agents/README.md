@@ -16,14 +16,13 @@ Welcome to the Enterprise Agents track! In this challenge, you will build intell
 > | 💻 **Laptop** | Bring your own laptop with your preferred development environment |
 > | 🎫 **Microsoft 365 Copilot License** | You need an active Microsoft 365 Copilot license to test and deploy agents |
 > | 🏢 **Tenant with Sideloading Enabled** | Access to a Microsoft 365 tenant where you can sideload custom apps for testing |
+> | ☁️ **Azure Subscription** | Required for Custom Engine Agents (CEA) track to deploy and host your agent |
 
 ---
 
-## 💡 Project Ideas
+## 💡 Agent Development Approaches
 
 In this track, we encourage you to create agents that extend **Microsoft 365 Copilot** using one of the following development approaches:
-
-### Development Approaches
 
 1. **Creating Declarative Agents (DA) with Microsoft 365 Agents Toolkit (ATK) + Visual Studio Code** - Build **Declarative Agents** using the ATK extension in VS Code. This approach allows you to define agent capabilities, actions, and behaviors through declarative configurations, enabling rapid development and iteration of enterprise-grade agents without writing custom code.
 
