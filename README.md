@@ -38,6 +38,7 @@ Before you begin, make sure you have the following ready:
 - **💻 Laptop** — Bring your own device
 - **🔑 Tenant with M365 Copilot License, Microsoft Azure, and GitHub Copilot** — Required for building agents
 - **🛠️ VS Code installed** — Your development environment
+- **🥳 An Excitement to build something new** - Your developer mindset
 
 > 📋 **Note:** Each track has specific prerequisites. Check the starter kit for your chosen track for detailed setup instructions.
 
