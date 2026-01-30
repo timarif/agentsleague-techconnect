@@ -63,7 +63,7 @@ When choosing your project, consider these principles:
 
 5. **Think About Data Flow**: Map out which systems contain the data you need, what transformations add value, and where results should be surfaced.
 
-> 💡 **Build for GitHub Copilot**: Consider building MCP servers that integrate directly with GitHub Copilot in VS Code! Your MCP server can expose tools and data sources that Copilot can use during chat conversations, making your solution available to developers right where they work. See the [MCP in VS Code documentation](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) for how to connect MCP servers to Copilot and [MCP Apps Support in VS Code](https://code.visualstudio.com/blogs/2026/01/26/mcp-apps-support) for how to build MCP Apps.
+> 💡 **Build for GitHub Copilot**: Consider building MCP servers that integrate directly with GitHub Copilot in VS Code! Your MCP server can expose tools and data sources that Copilot can use during chat conversations, making your solution available to developers right where they work. See the [MCP in VS Code documentation](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) for how to connect MCP servers to Copilot and the [VS Code blog](https://code.visualstudio.com/blogs/2026/01/26/mcp-apps-support) for the latest on MCP Apps Support.
 
 Feel free to combine categories, invent entirely new concepts, or explore areas not listed here. **There are no restrictions on application type or technology stack — web, CLI, mobile, desktop, embedded, VR/AR, and more are all welcome!**
 
@@ -148,7 +148,7 @@ Learn more about [using chat in VS Code](https://code.visualstudio.com/docs/copi
 
 #### Autonomous Coding with Agents
 
-Agents can autonomously plan and execute complex development tasks. Select **Agent** from the agent picker in the Chat view:
+Agents can autonomously plan and execute complex development tasks. In the Chat view, open the mode picker dropdown (next to the chat input box) and select **Agent**:
 
 - "Implement a generative art canvas with multiple brush styles"
 - "Create a music visualizer that responds to audio input"
@@ -277,9 +277,9 @@ When Copilot generates creative code:
 - **Learn from output**: If a suggestion doesn't match your intent, refine your prompt with more context
 - **Use Cheatsheets**: Keep reference documentation handy to validate generated code against known patterns
 
-### Prompt Templates for Business Apps
+### Prompt Templates for Enterprise-Style Apps
 
-Here are reusable prompt patterns for common business application tasks:
+Here are reusable prompt patterns for common business application workflows you can adapt to creative projects:
 
 **For MCP Integrations:**
 ```
@@ -360,7 +360,7 @@ Your submission **must** be a creative application that showcases innovation and
 
 #### 3. MCP Integration (Required)
 
-Your project **must** integrate with the **Model Context Protocol (MCP)**. This includes:
+Your project **must** integrate with the **Model Context Protocol (MCP)** in some form. This includes:
 
 - Using an MCP server to connect with external data sources
 - Demonstrating how MCP enables your application to access and combine information from multiple tools or services
@@ -419,7 +419,7 @@ Here are some MCP servers to help you get started:
 | Server | Description | Repository |
 |--------|-------------|------------|
 | **WorkIQ** | Connect to Microsoft 365 data (Teams, Outlook, SharePoint, Planner) | [microsoft/work-iq-mcp](https://github.com/microsoft/work-iq-mcp) |
-| **Microsoft Learn** | Access Microsoft Learn documentation and training content | [MicrosoftDocs/learn-mcp](https://github.com/MicrosoftDocs/mcp) |
+| **Microsoft Learn** | Access Microsoft Learn documentation and training content | [MicrosoftDocs/mcp](https://github.com/MicrosoftDocs/mcp) |
 | **GitHub** | Interact with GitHub repos, issues, PRs, and more | [github/github-mcp-server](https://github.com/github/github-mcp-server) |
 | **Playwright** | Browser automation and web scraping capabilities | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
 
@@ -427,4 +427,4 @@ Here are some MCP servers to help you get started:
 
 ---
 
-Questions? Join [Discord](https://aka.ms/agentsleague/discord) #creative-apps channel
+Questions? Join the #creative-apps channel on [Discord](https://aka.ms/agentsleague/discord).
