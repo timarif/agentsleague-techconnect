@@ -155,7 +155,7 @@ Projects are evaluated by Microsoft product teams **after the event** using this
 
 Community voting and discussions
 
-[![Agents League Discord](https://img.shields.io/badge/GitHub-Agents_League_Discord_Channel-yellow?style=for-the-badge&logo=github&logoColor=fff)](https://aka.ms/agentsleague/discord)
+[![Agents League Discord](https://img.shields.io/badge/Discord-Agents_League_Discord_Channel-yellow?style=for-the-badge&logo=github&color=00001&logoColor=fff)](https://aka.ms/agentsleague/discord)
 
 Community and Guidance 
 
