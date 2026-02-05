@@ -91,7 +91,13 @@ You have **100 minutes** to:
 
 ### 3. Submit Your Project
 
-Submit your project before time runs out using the [project submission template](https://github.com/microsoft/agentsleague-techconnect/issues/new?template=project.yml)
+
+Submit your project before Feb 13, 2026 (11:59 PM PT) using the [project submission template](https://github.com/microsoft/agentsleague-techconnect/issues/new?template=project.yml)
+
+⚠️ **Before submitting**: 
+- Read the [Disclaimer](./DISCLAIMER.md) - No confidential information allowed
+- Review the [Code of Conduct](./CODE_OF_CONDUCT.md)
+- Ensure your repository is public and includes a README
 
 **⚠️ Your Microsoft alias is required for submission!**
 
