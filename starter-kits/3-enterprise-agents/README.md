@@ -7,6 +7,61 @@ Welcome to the Enterprise Agents track! In this challenge, you will build intell
 
 ---
 
+## ⚠️ Security and Confidentiality Requirements
+
+**CRITICAL: This repository is PUBLIC. Protect confidential information.**
+
+Before submitting your project, you **MUST** ensure your code does NOT contain:
+
+- ❌ **API keys, passwords, tokens, or credentials** - Use secure app registration and OAuth flows
+- ❌ **Customer data or PII** - No real user data, emails, or personal information
+- ❌ **Microsoft Confidential information** - Only General-level content is permitted
+- ❌ **Microsoft 365 tenant details** - Remove tenant IDs, domain names, and user information
+- ❌ **App registration secrets** - Never commit client secrets or certificates
+- ❌ **Production OAuth tokens** - Use dev/test tokens only
+
+### Security Best Practices for M365 Agents
+
+✅ **DO:**
+- Use Microsoft Entra ID app registrations with certificate-based authentication
+- Implement OAuth 2.0 authorization code flow for user consent
+- Store app secrets in Azure Key Vault or local dev secrets manager
+- Use test/dev Microsoft 365 tenants for development
+- Provide example manifest files with placeholder values
+- Document permission scopes required without exposing actual app IDs
+- Use delegated permissions instead of application permissions when possible
+
+❌ **DON'T:**
+- Hardcode Graph API tokens or refresh tokens
+- Commit Teams app manifests with production app IDs
+- Include OAuth redirect URIs pointing to production services
+- Share screenshots of Teams admin center or app registrations
+- Commit `.env.local` or `.env.dev` files with real credentials
+- Include user emails, display names, or organizational information
+- Expose Microsoft 365 SharePoint site URLs or internal service endpoints
+
+### Microsoft 365 Specific Security Checks
+
+ Before submitting, verify:
+- [ ] All app manifest files use placeholder GUIDs
+- [ ] No Microsoft Graph access tokens in code or logs
+- [ ] OAuth configuration uses localhost redirects for dev
+- [ ] No hardcoded tenant IDs or domain names
+- [ ] Adaptive Cards contain only sample/mock data
+- [ ] No references to internal Microsoft 365 groups or users
+
+### Required Actions
+
+1. **Review the Repository Disclaimer**: Read **[../../DISCLAIMER.md](../../DISCLAIMER.md)** for complete guidelines
+2. **Scan Your Code**: Check manifest files, configuration, and source code for sensitive information
+3. **Review Microsoft Graph Calls**: Ensure no real user data or organizational info is exposed
+4. **Test Authentication Flow**: Verify OAuth works without hardcoded credentials
+5. **Verify Your Submission**: Confirm your project contains only public, non-confidential content
+
+By submitting your project, you confirm compliance with these security requirements and acknowledge that violations may result in disqualification.
+
+---
+
 > [!IMPORTANT]
 > ## 🎒 Prerequisites - What to Bring
 > Before the hackathon, make sure you have the following ready:

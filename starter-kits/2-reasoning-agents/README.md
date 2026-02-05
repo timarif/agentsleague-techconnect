@@ -8,6 +8,46 @@ Welcome to the Reasoning Agents track! In this challenge, you'll build intellige
 
 ---
 
+## ⚠️ Security and Confidentiality Requirements
+
+**CRITICAL: This repository is PUBLIC. Protect confidential information.**
+
+Before submitting your project, you **MUST** ensure your code does NOT contain:
+
+- ❌ **API keys, passwords, tokens, or credentials** - Use Azure Key Vault or environment variables
+- ❌ **Customer data or PII** - No real user data, emails, or personal information
+- ❌ **Microsoft Confidential information** - Only General-level content is permitted
+- ❌ **Azure deployment details** - Remove subscription IDs, resource names, and connection strings
+- ❌ **Proprietary algorithms or trade secrets** - Original work or properly licensed code only
+
+### Security Best Practices for Azure/Foundry Projects
+
+✅ **DO:**
+- Use Azure Managed Identities for authentication instead of API keys
+- Store secrets in Azure Key Vault and reference them securely
+- Use environment variables for configuration (`.env` files in `.gitignore`)
+- Provide example configuration files with placeholder values
+- Use `DefaultAzureCredential` for local development authentication
+- Review Azure resource configurations before committing
+
+❌ **DON'T:**
+- Hardcode Azure OpenAI endpoints or API keys
+- Commit connection strings or SAS tokens
+- Include Azure subscription IDs or tenant information
+- Share screenshots of Azure Portal containing sensitive details
+- Commit deployment credentials or service principal secrets
+
+### Required Actions
+
+1. **Review the Repository Disclaimer**: Read **[../../DISCLAIMER.md](../../DISCLAIMER.md)** for complete guidelines
+2. **Scan Your Code**: Check all files, including config files, for sensitive information
+3. **Test Locally First**: Ensure your project works without hardcoded credentials
+4. **Verify Your Submission**: Confirm your project contains only public, non-confidential content
+
+By submitting your project, you confirm compliance with these security requirements and acknowledge that violations may result in disqualification.
+
+---
+
 > [!IMPORTANT]
 > ## 🎒 Prerequisites - What to Bring
 > Before the hackathon, make sure you have the following ready:
@@ -200,12 +240,17 @@ Another suggestion is to further extend your system, enabling your agent to inte
 - **AI assisted development with GitHub Copilot**: [https://github.com/github/awesome-copilot](https://github.com/github/awesome-copilot)
 - **Step-by-step agent building lab**: [https://jolly-field-035345f1e.2.azurestaticapps.net/](https://jolly-field-035345f1e.2.azurestaticapps.net/)
 
+### Community
+
+- **Microsoft Foundry Discord Community**: [https://aka.ms/foundry/devs](https://aka.ms/foundry/devs) - Connect with other developers, ask questions, and share your projects
+
 ---
 
 ## 🆘 Need Help?
 
 - **Raise your hand** - Roaming experts are here to help
 - **Ask your tablemates** - Collaborate and learn together
+- **Join the community** - [Microsoft Foundry Discord Community](https://aka.ms/foundry/devs)
 - **Check learning resources above**
 
 ---

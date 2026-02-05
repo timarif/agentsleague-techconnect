@@ -6,6 +6,43 @@ Welcome to the Creative Apps track! In this challenge, you will harness the powe
 
 ---
 
+## ⚠️ Security and Confidentiality Requirements
+
+**CRITICAL: This repository is PUBLIC. Protect confidential information.**
+
+Before submitting your project, you **MUST** ensure your code does NOT contain:
+
+- ❌ **API keys, passwords, tokens, or credentials** - Use environment variables or secure vaults
+- ❌ **Customer data or PII** - No real user data, emails, or personal information
+- ❌ **Microsoft Confidential information** - Only General-level content is permitted
+- ❌ **Proprietary code or trade secrets** - Original work or properly licensed code only
+- ❌ **Pre-release product information** - No content under NDA
+
+### Security Best Practices
+
+✅ **DO:**
+- Store secrets in environment variables (`.env` files) and add them to `.gitignore`
+- Use placeholder values in example configuration files
+- Review your Git commit history before pushing
+- Enable GitHub Secret Protection on your repository
+- Use GitHub Personal Access Tokens instead of passwords
+
+❌ **DON'T:**
+- Hardcode credentials directly in source code
+- Commit `.env` files to the repository
+- Include internal URLs, endpoints, or service names
+- Share screenshots containing sensitive information
+
+### Required Actions
+
+1. **Review the Repository Disclaimer**: Read **[../../DISCLAIMER.md](../../DISCLAIMER.md)** for complete guidelines
+2. **Scan Your Code**: Check all files for sensitive information before committing
+3. **Verify Your Submission**: Confirm your project contains only public, non-confidential content
+
+By submitting your project, you confirm compliance with these security requirements and acknowledge that violations may result in disqualification.
+
+---
+
 ## 💡 Project Ideas
 
 In this track, we encourage you to build creative applications that demonstrate the power of AI-assisted development with GitHub Copilot. **We especially welcome [Copilot CLI SDK](https://github.com/github/copilot-sdk) tools and [WorkIQ MCP](https://github.com/microsoft/work-iq-mcp) projects!** Here are some categories and ideas to inspire your project:

@@ -6,6 +6,21 @@ labels: feedback, product
 assignees: ''
 ---
 
+## ⚠️ Security Notice
+
+**This repository is PUBLIC. Do NOT include confidential or sensitive information.**
+
+Before submitting feedback, ensure you DO NOT include:
+- ❌ API keys, passwords, tokens, or credentials
+- ❌ Customer data or personally identifiable information (PII)
+- ❌ Microsoft Confidential information
+- ❌ Internal system names, URLs, or endpoints
+- ❌ Security vulnerabilities (report these through proper channels)
+
+Please review **[DISCLAIMER.md](../../DISCLAIMER.md)** for complete guidelines.
+
+---
+
 ## Feedback Type
 <!-- Select one: Feature Request | Improvement | Usability | General Feedback -->
 

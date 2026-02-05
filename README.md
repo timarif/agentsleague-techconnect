@@ -12,6 +12,25 @@
 
 Build innovative AI agents using GitHub Copilot, Microsoft Foundry, or M365 Agents Toolkit. Battle alongside your colleagues, showcase your skills, and compete for recognition from your peers and Microsoft product teams.
 
+---
+
+## ⚠️ IMPORTANT: Security and Confidentiality Notice
+
+**This is a PUBLIC repository. DO NOT upload confidential information.**
+
+Before contributing or submitting your project, please read the **[DISCLAIMER.md](DISCLAIMER.md)** to understand:
+- What content is prohibited (credentials, PII, confidential data, etc.)
+- Your responsibilities regarding security and intellectual property
+- Best practices for protecting sensitive information
+
+**Quick Checklist:**
+- ❌ No API keys, passwords, or credentials
+- ❌ No customer data or PII
+- ❌ No Microsoft Confidential information
+- ✅ Only public, General-level content
+
+---
+
 ## What's Agents League @ TechConnect?
 
 An **in-person hackathon experience** combining:
@@ -131,6 +150,11 @@ Projects are evaluated by Microsoft product teams **after the event** using this
 - **Raise your hand** - Roaming experts are here to help
 - **Ask your tablemates** - Collaborate and learn together
 - **Check the starter kits** - Step-by-step guides included
+
+### 💬 Community
+
+- **Agents League Discord**: [https://aka.ms/agentsleague/discord](https://aka.ms/agentsleague/discord) - Community voting and discussions
+- **Microsoft Foundry Discord**: [https://aka.ms/foundry/devs](https://aka.ms/foundry/devs) - Developer community for Foundry projects
 
 <div align="center">
 

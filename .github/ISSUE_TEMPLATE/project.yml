@@ -11,6 +11,25 @@ body:
         Please fill out this form completely to submit your project. All fields are required for evaluation.
         
         **⏰ Submit before the hackathon ends!**
+        
+        ---
+        
+        ## ⚠️ IMPORTANT: Security and Confidentiality Notice
+        
+        **DO NOT upload confidential or sensitive information to this public repository.**
+        
+        Before submitting, ensure your project does NOT contain:
+        - ❌ API keys, passwords, tokens, or credentials
+        - ❌ Customer data or personally identifiable information (PII)
+        - ❌ Microsoft Confidential information
+        - ❌ Proprietary code or trade secrets
+        - ❌ Pre-release product information under NDA
+        
+        Please review the **[DISCLAIMER.md](../../DISCLAIMER.md)** for complete guidelines on protecting confidential content and understanding your responsibilities as a contributor.
+        
+        By submitting, you confirm your project contains only General-level, non-confidential information suitable for public release.
+        
+        ---
 
   - type: dropdown
     id: track
