@@ -59,6 +59,8 @@ Before you begin, make sure you have the following ready:
 - **🛠️ VS Code installed** — Your development environment
 - **🥳 Excitement to build something new** - Your developer mindset
 
+Use AI assisted development with tools like [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview), the [GitHub Copilot CLI](https://github.com/features/copilot/cli/), or the [GitHub Copilot CLI SDK](https://github.com/github/copilot-sdk).
+
 > 📋 **Note:** Each track has specific prerequisites. Check the starter kit for your chosen track for detailed setup instructions.
 
 ## Challenge Tracks
