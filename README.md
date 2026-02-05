@@ -151,6 +151,17 @@ Projects are evaluated by Microsoft product teams **after the event** using this
 - **Ask your tablemates** - Collaborate and learn together
 - **Check the starter kits** - Step-by-step guides included
 
+### 5. Submit Your Project
+
+**Submission Deadline**: Feb 13, 2026 at 11.59pm 
+
+Open a new issue in this repo using the [project submission template](https://github.com/microsoft/agentsleague-techconnect/issues/new?template=project.yml)
+
+⚠️ **Before submitting**: 
+- Read the [Disclaimer](./DISCLAIMER.md) - No confidential information allowed
+- Review the [Code of Conduct](./CODE_OF_CONDUCT.md)
+- Ensure your repository is public and includes a README
+
 ### 💬 Community
 
 Community voting and discussions
