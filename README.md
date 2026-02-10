@@ -46,7 +46,7 @@ An **in-person hackathon experience** combining:
 
 - **10 min** — Welcome & Track Overview
 - **100 min** — Build Your Agent
-- **10 min** — Final Submissions & Wrap-up
+- **10 min** — Wrap-up
 
 *Winners will be announced after the event once judges review all submissions!*
 
@@ -92,7 +92,6 @@ You have **100 minutes** to:
 - Include screenshots or a demo video in your submission
 
 ### 3. Submit Your Project
-
 
 Submit your project before Feb 13, 2026 (11:59 PM PT) using the [project submission template](https://github.com/microsoft/agentsleague-techconnect/issues/new?template=project.yml)
 
