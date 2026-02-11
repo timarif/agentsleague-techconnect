@@ -61,7 +61,8 @@ Before you begin, make sure you have the following ready:
 
 Use AI assisted development with tools like [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview), the [GitHub Copilot CLI](https://github.com/features/copilot/cli/), or the [GitHub Copilot CLI SDK](https://github.com/github/copilot-sdk).
 
-> 📋 **Note:** Each track has specific prerequisites. Check the starter kit for your chosen track for detailed setup instructions.
+> 📋 **Note:** Each track has specific prerequisites. Check the starter kit for your chosen track for detailed setup instructions. Please visit [Tech Connect Skills Quest 2026](https://microsoft.sharepoint.com/teams/MCAPSAcademy/Build%20your%20expertise/Forms/AllItems.aspx?id=%2Fteams%2FMCAPSAcademy%2FBuild%20your%20expertise%2FTech%20Connect%20Skills%20Quest%202026&sortField=LinkFilename&isAscending=true&viewid=4debaa93%2Dc7aa%2D431d%2D8f63%2D5c847d43cc7d&csf=1&CID=fe43b07a%2De29a%2D4b12%2D9f1c%2D46c5ff8190a1&FolderCTID=0x012000C226F5A26C5B434FB9127BCC8CFDE8C0) for video and PDF guides to set up resources. 
+
 
 ## Challenge Tracks
 
