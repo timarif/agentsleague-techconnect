@@ -129,16 +129,20 @@ Projects are evaluated by Microsoft product teams **after the event** using this
 | 🧠 **Reasoning Master** | Best project in the Reasoning Agents track |
 | 💼 **Enterprise MVP** | Best project in the Enterprise Agents track |
 
-### ⭐ Special Awards
+### ⭐ In-room Awards
 
 | Award | Description |
 |-------|-------------|
-| 🏅 **Grand Champion** | Best overall project across all tracks |
 | 🚀 **Speed Demon** | First to submit a working project |
-| 💡 **Most Innovative** | Most creative or unexpected approach |
-| 🎯 **Best Presentation** | Clearest README, screenshots, or video |
 | 🔧 **Hackiest Hack** | Scrappiest solution that somehow works |
-| 🌟 **Product Team Pick** | Judge's personal favorite |
+| **🐛 Bug Whisperer** | Spent 40 minutes debugging… it was a missing comma |
+| **🧱 It Worked Yesterday Award** | The demo broke exactly when someone important walked by. |
+| **🧙 Used Magic** | No one understands how it works, including them |
+| **🔌 Turning it Off and On Award** | Solved everything by turning it off and on again |
+| **🎨 Fake It Till You Make It** | UI looks amazing, backend doesn't exist |
+| **📢 Hype Machine** | Talked about their idea more than they coded |
+| **🎪 Last Minute Legend** | Did everything in the final hour
+
 
 ### 🎖️ For All Participants
 
